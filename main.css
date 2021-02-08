@@ -1,1 +1,53 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background: #5D00D6;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: 'Poppins';
+  height: 100vh;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  position: relative;
+  padding: .5em 1em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: .2em;
+  outline: none;
+  width: 10em;
+}
+
+button:before {
+  position: absolute;
+  content: '';
+  background: #5000B8;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: .2em;
+  top: .5em;
+  left: .5em;
+}
+
+svg {
+  position: absolute;
+  top: .7em;
+  left: .5em;
+  stroke-dasharray: 0 103;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+}
+/*# sourceMappingURL=main.css.map */
